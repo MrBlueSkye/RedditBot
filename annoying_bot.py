@@ -23,7 +23,7 @@ chattingshit = [
 	'Let us be friends!',
 	'You are a nice person!',
 	'Have a great day!',
-]
+] # FIXME: Skylar's bot can be mean sometimes...
 
 #chattingshit.append(lc.learned())
 

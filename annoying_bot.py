@@ -25,7 +25,7 @@ chattingshit = [
 	'Have a great day!',
 ]
 
-#chattingshit.append(lc.
+#chattingshit.append(lc.learned())
 
 # []
 

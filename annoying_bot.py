@@ -28,11 +28,11 @@ chattingshit = [
 
 
 # Get raw text as string.
-with open("path/to/corpus.txt") as f:
-    text = f.read()
+with open("/path/to/corpus.txt") as f:
+    textsource = f.read()
 
 # Build the model.
-text_model = markovify.NewlineText(text)
+text_model = markovify.NewlineText(textsource)
 
 try:
     for comment in comments:
@@ -80,5 +80,5 @@ except praw.errors.HTTPException as e:
         print("Let's wait til reddit comes back! Sleeping 60 seconds.")
         time.sleep(60)
 except Exception as e:
-    print("Some thing bad happened!", e)
+    print("Some thing bad happened! :O ", e)
     traceback.print_exc()                

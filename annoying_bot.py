@@ -45,17 +45,17 @@ try:
                         shaekeitUp = text_model.make_sentence()
                         chattingshit.append(shaekeitUp)
                         print shaekeitUp
-                        upboats = comment.score
-                        print upboats
-                        signalsentence=random.choice(text.split())
+                    upboats = comment.score
+                    print upboats
+                    signalsentence=random.choice(text.split())
     #               chattingshit.append(text) # moved after comment submission...picking uncommon random word often results to replying to user with their own comment
     #               goodcomment =                
-                        postingshit = random.choice(chattingshit)
-                        message = postingshit.format(author)
-                        comment.reply(message) # Send message
-                        chattingshit.append(text) # previously (text,upboats)...maybe didn't work
-                        print message
-                        time.sleep(20)
+                    postingshit = random.choice(chattingshit)
+                    message = postingshit.format(author)
+                    comment.reply(message) # Send message
+                    chattingshit.append(text) # previously (text,upboats)...maybe didn't work
+                    print message
+                    time.sleep(20)
     #		print("Title: ", submission.title)
     #		print("Text: ", submission.selftext)
     #		print("Score: ", submission.score)
